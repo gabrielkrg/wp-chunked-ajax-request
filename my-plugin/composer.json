@@ -1,0 +1,17 @@
+{
+    "name": "gabriel/my-plugin",
+    "autoload": {
+        "psr-4": {
+            "Gabriel\\MyPlugin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gabriel Rodrigues",
+            "email": "gabrielkrodrigues1@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    }
+}
