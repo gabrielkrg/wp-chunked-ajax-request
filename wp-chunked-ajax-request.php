@@ -1,7 +1,7 @@
 <?php
 
 /*
-Plugin Name: My Plugin
+Plugin Name: WP Chunked Ajax Request
 Description: 
 Author: Gabriel
 Version: 1.0.0
@@ -15,8 +15,8 @@ require_once('src/Post.php');
 function mpg_options_page()
 {
     add_menu_page(
-        'My plugin',
-        'My plugin',
+        'WP Chunked Ajax Request',
+        'WP Chunked Ajax Request',
         'manage_options',
         'mpg',
         'mpg_options_page_html'
